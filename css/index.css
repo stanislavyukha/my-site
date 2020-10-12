@@ -1,11 +1,10 @@
 body {
   font-family: Montsserat, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  color: #161719;
+  line-height: 1;
   padding: 0;
   margin: 0;
-}
-.container {
-  width: 1170px;
 }
 section {
   margin-bottom: 50px;
@@ -21,50 +20,57 @@ img {
   display: flex;
   justify-content: space-around;
   background-color: #f6f6f6;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 8px 0;
+  font-size: 14px;
+}
+.foreheader-block {
+  display: flex;
+  justify-content: space-between;
 }
 .header-block {
   display: flex;
-  justify-content: space-around;
-}
-.logo {
-  margin-left: -50px;
+  justify-content: space-between;
+  padding: 20px 0px;
 }
 .logo a {
-  font-size: 25px;
+  font-size: 30px;
   text-decoration: none;
 }
 .logo span {
   font-size: 14px;
 }
-.menu ul {
+.menu > ul {
   list-style: none;
 }
-.menu li {
+.menu > ul > li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 20px;
 }
-
+#call-me-btn {
+  height: 100%;
+}
 button:active,
 button:focus {
   outline: none;
 }
 .btn {
+  display: block;
   background-color: #2064fe;
   color: #fff;
-  padding: 10px;
+  padding: 15px 40px;
   border: none;
 }
+
 .btn:hover {
   background-color: rgba(36, 33, 235, 0.897);
 }
 h1 {
   font-weight: 1000;
-  font-size: 60px;
+  font-size: 80px;
   color: #fff;
 }
 .h1-paragraph {
+  font-size: 20px;
   color: #fff;
 }
 .banner {
@@ -85,12 +91,11 @@ h1 {
 .features-item {
   background-color: #2064fe;
   color: #fff;
-  margin-left: 40px;
+
   padding: 20px;
 }
 .features-item img {
   max-width: 150px;
-  fill: white;
 }
 .programs-block {
   display: flex;
@@ -118,8 +123,7 @@ h1 {
 }
 .pricing-block {
   display: flex;
-  justify-content: space-around;
-
+  justify-content: space-between;
   padding: 100px 0px;
 }
 .pricing-block-item {
@@ -138,12 +142,11 @@ h1 {
 }
 .training-services-block {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .training-services-item {
   max-width: 300px;
-  margin-left: 40px;
 }
 .benefits-block {
   display: flex;
@@ -170,13 +173,13 @@ h1 {
 .social-media img {
   max-width: 20px;
 }
+
 .before-after-block {
   display: flex;
   justify-content: space-between;
 }
 .trial-version-block {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding-top: 200px;
   padding-bottom: 150px;
   background: url(../img/index/trial-version-bg.jpeg);
@@ -185,18 +188,23 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#trial-version-header, #trial-version-p {
+#trial-version-header,
+#trial-version-p {
   color: #fff;
 }
 
-}
 .my-book-block {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
+.my-book-block-text {
+  max-width: 300px;
+}
+
 .instagram-block {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .contacts {
   background-color: #f6f6f6;
@@ -207,7 +215,6 @@ h1 {
 }
 .contacts-block-item {
   background-color: #2064fe;
-  margin-left: 30px;
   color: #fff;
 }
 .contacts-block img {
