@@ -71,7 +71,7 @@ h1 {
   padding-top: 250px;
   padding-bottom: 250px;
   padding-left: 100px;
-  background-image: url(./img/index/banner.jpeg);
+  background-image: url(../img/index/banner.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -107,7 +107,7 @@ h1 {
   line-height: 2;
 }
 .pricing {
-  background: url(./img/index/pricing-background.jpeg);
+  background: url(../img/index/pricing-background.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -151,7 +151,7 @@ h1 {
 }
 
 .first-step {
-  background: url(./img/index/first-step.jpeg);
+  background: url(../img/index/first-step.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@ h1 {
 }
 .trial-version-block {
   padding-top: 200px;
-  background: url(./img/index/trial-version-bg.jpeg);
+  background: url(../img/index/trial-version-bg.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -206,7 +206,7 @@ h1 {
   max-width: 200px;
 }
 .stay-in-touch {
-  background: url(./img/index/stay-in-touch-bg.jpeg);
+  background: url(../img/index/stay-in-touch-bg.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
