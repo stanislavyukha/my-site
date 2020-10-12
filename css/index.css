@@ -151,7 +151,6 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
-
 .first-step {
   background: url(../img/index/first-step.jpeg);
   background-attachment: fixed;
@@ -172,7 +171,6 @@ h1 {
 .social-media img {
   max-width: 20px;
 }
-
 .before-after-block {
   display: flex;
   justify-content: space-between;
@@ -191,7 +189,6 @@ h1 {
 #trial-version-p {
   color: #fff;
 }
-
 .my-book-block {
   display: flex;
   justify-content: space-around;
@@ -232,7 +229,6 @@ h1 {
   text-align: center;
   background-color: #fff;
 }
-
 footer {
   background-color: #161719;
 }
