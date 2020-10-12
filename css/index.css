@@ -31,6 +31,7 @@ img {
   display: flex;
   justify-content: space-between;
   padding: 20px 0px;
+  align-items: flex-start;
 }
 .logo a {
   font-size: 30px;
@@ -45,9 +46,6 @@ img {
 .menu > ul > li {
   display: inline-block;
   margin-right: 20px;
-}
-#call-me-btn {
-  height: 100%;
 }
 button:active,
 button:focus {
