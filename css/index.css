@@ -1,0 +1,240 @@
+body {
+  font-family: Montsserat, sans-serif;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1170px;
+}
+section {
+  margin-bottom: 50px;
+}
+.section-header {
+  text-align: center;
+  font-size: 30px;
+}
+img {
+  max-width: 300px;
+}
+.foreheader {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f6f6f6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.header-block {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  margin-left: -50px;
+}
+.logo a {
+  font-size: 25px;
+  text-decoration: none;
+}
+.logo span {
+  font-size: 14px;
+}
+.menu ul {
+  list-style: none;
+}
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
+.btn {
+  background-color: #2064fe;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
+.btn:hover {
+  background-color: rgba(36, 33, 235, 0.897);
+}
+h1 {
+  font-weight: 1000;
+  font-size: 60px;
+  color: #fff;
+}
+.h1-paragraph {
+  color: #fff;
+}
+.banner {
+  padding-top: 250px;
+  padding-bottom: 250px;
+  padding-left: 100px;
+  background-image: url(/img/index/banner.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.features p {
+  text-align: center;
+}
+.features-block {
+  display: flex;
+  justify-content: space-between;
+}
+.features-item {
+  background-color: #2064fe;
+  color: #fff;
+  margin-left: 40px;
+  padding: 20px;
+}
+.features-item img {
+  max-width: 150px;
+  fill: white;
+}
+.programs-block {
+  display: flex;
+  justify-content: space-between;
+}
+.courses-block {
+  display: flex;
+  justify-content: space-between;
+}
+.courses-block-item {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  line-height: 2;
+}
+.pricing {
+  background: url(/img/index/pricing-background.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pricing h2 {
+  color: #fff;
+}
+.pricing-block {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 100px 0px;
+}
+.pricing-block-item {
+  color: #fff;
+  background-color: #2064fe;
+  padding: 20px;
+}
+.pricing-block-item .btn {
+  background-color: #fff;
+  color: #000;
+  border: none;
+}
+.pricing-block-item .btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.training-services-block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.training-services-item {
+  max-width: 300px;
+  margin-left: 40px;
+}
+.benefits-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-step {
+  background: url(/img/index/first-step.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first-step-block {
+  padding: 150px 0px 150px 40px;
+}
+.first-step-block h2 {
+  color: #fff;
+}
+.whoiam-block {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media img {
+  max-width: 20px;
+}
+.trial-version-block {
+  padding-top: 200px;
+  background: url(/img/index/trial-version-bg.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trial-version-block h2 {
+  color: #fff;
+}
+.my-book-block {
+  display: flex;
+  justify-content: center;
+}
+.instagram-block {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts {
+  background-color: #f6f6f6;
+}
+.contacts-block {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-block-item {
+  background-color: #2064fe;
+  margin-left: 30px;
+  color: #fff;
+}
+.contacts-block img {
+  max-width: 200px;
+}
+.stay-in-touch {
+  background: url(/img/index/stay-in-touch-bg.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stay-in-touch-block {
+  padding-top: 25px 25px;
+  max-width: 300px;
+  text-align: center;
+  background-color: #fff;
+}
+
+footer {
+  background-color: #161719;
+}
+.footer-block {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-block a {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
